@@ -1,0 +1,96 @@
+body { 
+    font-family: "Pretendard Variable", sans-serif;
+    word-break: keep-all; /* 자동 글 맞춤 , html에 있는 defer*/
+    padding-top: 80px; 
+    padding-bottom: 80px ;
+} 
+
+
+img {
+    display: block;
+}
+
+.page-title{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #13b491;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.page-subtitle{
+    width: 240px;
+    height: 50px;
+    border: 5px solid orange;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.1s;
+}
+
+.btn-orange {
+    background-color: orange;
+    box-shadow: 0 14px 0 #e66000;
+    color: white;
+}
+
+.btn-orange:active{
+    box-shadow: 0 4px 0 #e66000;
+    transform: translateY(10px);
+}
+
+
+.btn-green {
+    background-color: mediumaquamarine;
+    box-shadow: 0 14px 0 mediumseagreen;
+    color: white;
+}
+
+.btn-green:active{
+    box-shadow: 0 4px 0 mediumseagreen;
+    transform: translateY(10px);
+}
+
+.btn-gray {
+    background-color: gainsboro;
+    box-shadow: 0 14px 0 gray;
+    color: #444444;
+}
+
+.btn-gray:active{
+    box-shadow: 0 4px 0 gray;
+    transform: translateY(10px);
+}
+
+.btn-small {
+    max-width: 350px;
+    height: 70px;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+
